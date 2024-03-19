@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Ubuntu Security Script
 
 # Check if running as root
 if [ "$(id -u)" != "0" ]; then

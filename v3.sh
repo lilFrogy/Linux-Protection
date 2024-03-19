@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Ubuntu & Kali Security Software <3 | my personal fav version!
+# Ubuntu & Kali Failsafe script <3 | my personal fav version!
+# If your having the gonverment come after you, you should probably run this and secure your system (DOES NOT SECURE EXTERNAL DRIVES{ill add such feature later <3 })
 
 # Check if running as root
 if [ "$(id -u)" != "0" ]; then

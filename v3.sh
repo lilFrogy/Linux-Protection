@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Ubuntu Security Script | my personal fav version!
+# Ubuntu & Kali Security Software <3 | my personal fav version!
 
 # Check if running as root
 if [ "$(id -u)" != "0" ]; then
@@ -159,3 +159,12 @@ fi
 
 # Purge unused packages
 apt-get -y purge hydra* john* nikto* netcat* transmisson* wireshark*
+
+echo "DONE, your computer should have a decent amout of security!"
+echo "1. Should have BIOS security"
+echo "2. Shouldn't be easily brute forceable"
+echo "3. Should no longer have guest account"
+echo "4. Should have firewall"
+echo
+echo "If there are any issues please contact CPScript > https://github.com/CPScript"
+

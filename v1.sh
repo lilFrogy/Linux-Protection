@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Ubuntu Security Script
 
 if [[ $EUID -ne 0 ]]
 then

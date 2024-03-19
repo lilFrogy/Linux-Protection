@@ -1,7 +1,11 @@
 #!/bin/bash
 
 # Ubuntu & Kali Failsafe script <3 | my personal fav version!
+
+# -------------------
 # If your having the gov come after you(or anyone), you should probably run this and secure your system (DOES NOT SECURE EXTERNAL DRIVES{ill add such feature later <3 })
+# (By the way, such is not this scripts purpose, i just used such as an example <3 )
+# -------------------
 
 # Check if running as root
 if [ "$(id -u)" != "0" ]; then

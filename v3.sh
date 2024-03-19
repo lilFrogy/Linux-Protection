@@ -152,7 +152,7 @@ else
 fi
 
 # Prompt user for BIOS password
-read -s -p "Enter BIOS password: " bios_password
+read -s -p "Set your BIOS password: " bios_password
 echo
 # Set BIOS password
 echo -n $bios_password | sudo dmidecode -s system-bios-version > /dev/null
@@ -166,7 +166,7 @@ fi
 apt-get -y purge hydra* john* nikto* netcat* transmisson* wireshark*
 
 echo "DONE, your computer should have a decent amout of security!"
-echo "1. Should have BIOS security"
+echo "1. Should have BIOS password"
 echo "2. Shouldn't be easily brute forceable"
 echo "3. Should no longer have guest account"
 echo "4. Should have firewall"
